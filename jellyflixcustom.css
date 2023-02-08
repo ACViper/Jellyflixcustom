@@ -1,3 +1,6 @@
+@import url("https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/default.css");
+@import url("https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/addons/Logo.css");
+
 :root{
 	--accent: #796EC9;
 	--deftraback: #796ec966 !important;
