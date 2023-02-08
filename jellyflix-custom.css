@@ -22,7 +22,7 @@
 	bottom: 225px;
 }
 .card:hover {
-  transform: scale(1.15) !important;
+  transform: scale(1.05) !important;
   box-shadow: 0 0 10px #796ec999;
 }
 .cardIndicators {
