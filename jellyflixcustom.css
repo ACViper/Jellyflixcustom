@@ -1,0 +1,38 @@
+:root{
+	--accent: #796EC9;
+	--deftraback: #796ec966 !important;
+	--rounding: 3px;
+}
+
+.countIndicator, .fullSyncIndicator, .playedIndicator {
+    background: #796ec999;
+	border-radius: 25px;
+	padding: 0;	
+}
+
+.cardOverlayButton-br.flex {
+    bottom: 157px;
+	left: 7px;
+}
+
+.card.portraitCard.card-hoverable.card-withuserdata .cardBox.cardBox-bottompadded .cardScalable .cardOverlayContainer.itemAction .cardOverlayButton-br.flex {
+	bottom: 225px;
+}
+
+.card.overflowPortraitCard.card-hoverable.card-withuserdata .cardBox.cardBox-bottompadded .cardScalable .cardOverlayContainer.itemAction .cardOverlayButton-br.flex {
+	bottom: 255px;
+}
+
+.cardBox.visualCardBox .cardScalable .cardOverlayContainer.itemAction .cardOverlayButton-br.flex {
+	bottom: 225px;
+}
+
+.card:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 0 10px #796ec999;
+}
+
+.cardIndicators {
+    right: 5px;
+    top: 5px;
+}
