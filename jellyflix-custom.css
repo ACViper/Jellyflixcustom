@@ -1,13 +1,21 @@
 :root{
 	--accent: #796EC9;
 	--deftraback: #796ec966 !important;
-	--rounding: 3px;
+	--rounding: 7px;
 }
 .countIndicator, .fullSyncIndicator, .playedIndicator {
     background: #796ec999;
 	border-radius: 25px;
 	padding: 0;	
 }
+.selectionCommandsPanel {
+    background: #796ec966;
+}
+.itemSelectionPanel {
+    border: 2px solid #796ec966;
+    padding: 5px 0px 0px 145px;
+}
+
 .cardOverlayButton-br.flex {
     bottom: 157px;
 	left: 7px;
@@ -22,10 +30,28 @@
 	bottom: 225px;
 }
 .card:hover {
-  transform: scale(1.15) !important;
-  box-shadow: 0 0 10px #796ec999;
+  transform: scale(1.03) !important;
+  box-shadow: 0 3px 0px 0px #796ec999;
 }
 .cardIndicators {
     right: 5px;
     top: 5px;
+}
+.cardOverlayButton-hover {
+	padding: 0.1em;
+}
+
+
+
+.layout-mobile .infoWrapper {
+    padding: 20% 0% 10% 5%;
+}
+.layout-mobile div#itemBackdrop {
+	display: none;
+}
+.layout-mobile .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
+	height: 70vh !important;
+}
+.layout-mobile #itemDetailPage .itemName.infoText.parentNameLast {
+	font-size: 13.5vw;
 }
