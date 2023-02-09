@@ -1,5 +1,11 @@
-# Jelly Flix Custom
-Custom version of prayag17 JellyFlix
+<div align="center">
+<h1>JellyFlix Custom</h1>
+<h2>
+  Custom version of prayag17 JellyFlix
+  
+  Was made primarily to fix the mobile version of this theme and adjust things to my liking.
+  </h2>
+</div>
 
 Setting -> Dashboard -> General -> Custom CSS code:
 ```css
