@@ -2,17 +2,22 @@
 Custom version of prayag17 JellyFlix
 
 Setting -> Dashboard -> General -> Custom CSS code:
-
+```css
 @import url("https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/default.css");
-
 @import url("https://cdn.jsdelivr.net/gh/prayag17/JellyFlix@latest/addons/Logo.css");
-
 @import url("https://cdn.jsdelivr.net/gh/ACViper/Jellyflixcustom@latest/jellyflix_custom.css");
+```
 
 Custom Colors:
 
+Purple: 
+```css
 @import url("https://cdn.jsdelivr.net/gh/ACViper/Jellyflixcustom@latest/jellyflix_custom_purple.css");
-
+```
+Blue: 
+```css
+@import url("https://cdn.jsdelivr.net/gh/ACViper/Jellyflixcustom@latest/jellyflix_custom_blue.css");
+```
 Hover animation is brought down a bit and now has a small colored outline in the bottom:
 
 https://user-images.githubusercontent.com/20104297/217909200-c856c6e7-5c27-400a-8a39-26df5f143eb9.mp4
