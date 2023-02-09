@@ -1,0 +1,17 @@
+:root{
+	--accent: #00a4dc;
+	--accent2: #00a4dc99;
+	--deftraback: var(--accent) !important;
+}
+.countIndicator, .fullSyncIndicator, .playedIndicator {
+    background: var(--accent2);
+}
+.selectionCommandsPanel {
+    background: var(--accent);
+}
+.itemSelectionPanel {
+    border: 2px solid var(--accent);
+}
+.card:hover {
+  box-shadow: 0 3px 0px 0px var(--accent2)
+}
