@@ -9,6 +9,7 @@ Setting -> Dashboard -> General -> Custom CSS code:
 
 @import url("https://cdn.jsdelivr.net/gh/ACViper/Jellyflixcustom@latest/jellyflix_custom.css");
 
+Custom Colors:
 @import url("https://cdn.jsdelivr.net/gh/ACViper/Jellyflixcustom@latest/jellyflix_custom_purple.css");
 
 Hover animation is brought down a bit and now has a small colored outline in the bottom:
