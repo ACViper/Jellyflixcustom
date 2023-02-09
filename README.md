@@ -12,7 +12,7 @@ Setting -> Dashboard -> General -> Custom CSS code:
 
 Hover animation is brought down a bit and now has a small colored outline in the bottom:
 
-https://user-images.githubusercontent.com/20104297/217905573-4781bf81-681e-41f0-86bd-7068e0955a7e.mp4
+https://user-images.githubusercontent.com/20104297/217909200-c856c6e7-5c27-400a-8a39-26df5f143eb9.mp4
 
 Fixed issues with mobile not displaying info properly:
 
