@@ -10,6 +10,8 @@ Setting -> Dashboard -> General -> Custom CSS code:
 
 Custom Colors:
 
+Default is red
+
 Purple: 
 ```css
 @import url("https://cdn.jsdelivr.net/gh/ACViper/Jellyflixcustom@latest/jellyflix_custom_purple.css");
