@@ -43,15 +43,31 @@
 
 
 
+.layout-mobile .itemBackdrop {
+	margin-top: 0rem;
+}
 .layout-mobile .infoWrapper {
     padding: 20% 0% 10% 5%;
 }
-.layout-mobile div#itemBackdrop {
-	display: none;
-}
-.layout-mobile .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
-	height: 70vh !important;
-}
 .layout-mobile #itemDetailPage .itemName.infoText.parentNameLast {
 	font-size: 13.5vw;
+}
+.layout-mobile .mainDetailButtons {
+	margin: 100px 5vw;
+}
+.layout-mobile .itemsContainer {
+    padding: 0px;
+}
+
+.layout-mobile .sections.homeSectionsContainer {
+    padding-left: 12px;
+	padding-right: 12px;
+}
+.layout-mobile #itemDetailPage .detailVerticalSection {
+	padding-left: 12px;
+    padding-right: 12px;
+	width: auto;
+}
+.layout-mobile div#favoritesTab {
+	padding-left: 12px;
 }
