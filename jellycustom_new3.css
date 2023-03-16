@@ -1,0 +1,39 @@
+:root{
+	--accent: #796EC9;
+	--accent1: #151230cc;
+	--accent2: #796ec999;
+	--accent3: #796ec933;
+	--accent4: #1e1943cc;
+	--deftraback: var(--accent) !important;
+}
+.backdropImage {filter: blur(12px) saturate(20%) contrast(70%) brightness(80%);}
+.backgroundContainer.withBackdrop {background-color: var(--accent4);}
+
+.countIndicator, .fullSyncIndicator, .playedIndicator {background: var(--accent2);}
+.selectionCommandsPanel {background: var(--accent);}
+.itemSelectionPanel {border: 2px solid var(--accent);}
+.listItemIcon.material-icons.notifications {background-color: var(--accent)!important;}
+.navMenuOption-selected {background: var(--accent3)!important; color:var(--accent)!important;}
+.defaultCardBackground {background-color: var(--accent2)!important;}
+.button-link {color: var(--accent);}
+.emby-checkbox:checked + span + .checkboxOutline {
+background-color: var(--accent2);
+border-color: var(--accent);
+}
+
+.paper-icon-button-light:hover:not(:disabled) {
+    color: var(--accent);
+    background-color: var(--accent3);
+}
+
+.button-submit {background: var(--accent);}
+.emby-tab-button:hover {color: var(--accent);}
+
+.listItemIcon:not(.listItemIcon-transparent) {background-color: var(--accent);}
+
+.mdl-spinner__layer-1 {border-color: var(--accent2);}
+
+
+.emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
+    background-color: var(--accent);
+}
