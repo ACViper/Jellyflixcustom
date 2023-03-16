@@ -1,0 +1,76 @@
+:root{
+	--rounding: 7px;
+	--accent2: rgba(229, 9, 20, 0.6);
+}
+.skinHeader {
+    background: linear-gradient( to bottom, #050505, #1414145c ) !important;
+}
+
+.countIndicator, .fullSyncIndicator, .playedIndicator {
+    background: var(--accent2);
+	border-radius: 25px;
+	padding: 0;	
+}
+.selectionCommandsPanel {
+    background: var(--accent);
+}
+.itemSelectionPanel {
+    border: 2px solid var(--accent);
+    padding: 5px 0px 0px 323px;
+}
+
+.cardOverlayButton-br.flex {
+    bottom: 157px;
+	left: 7px;
+}
+.card.portraitCard.card-hoverable.card-withuserdata .cardBox.cardBox-bottompadded .cardScalable .cardOverlayContainer.itemAction .cardOverlayButton-br.flex {
+	bottom: 225px;
+}
+.card.overflowPortraitCard.card-hoverable.card-withuserdata .cardBox.cardBox-bottompadded .cardScalable .cardOverlayContainer.itemAction .cardOverlayButton-br.flex {
+	bottom: 255px;
+}
+.cardBox.visualCardBox .cardScalable .cardOverlayContainer.itemAction .cardOverlayButton-br.flex {
+	bottom: 225px;
+}
+.card:hover {
+  transform: scale(1.03) !important;
+  box-shadow: 0 3px 0px 0px var(--accent2);
+}
+.cardIndicators {
+    right: 5px;
+    top: 5px;
+}
+.cardOverlayButton-hover {
+	padding: 0.1em;
+}
+
+
+
+.layout-mobile .itemBackdrop {
+	margin-top: 0rem;
+}
+.layout-mobile .infoWrapper {
+    padding: 20% 0% 10% 5%;
+}
+.layout-mobile #itemDetailPage .itemName.infoText.parentNameLast {
+	font-size: 11.5vw;
+}
+.layout-mobile .mainDetailButtons {
+	margin: 40px 5vw;
+}
+.layout-mobile .itemsContainer {
+    padding: 0px;
+}
+
+.layout-mobile .sections.homeSectionsContainer {
+    padding-left: 12px;
+	padding-right: 12px;
+}
+.layout-mobile #itemDetailPage .detailVerticalSection {
+	padding-left: 12px;
+    padding-right: 12px;
+	width: auto;
+}
+.layout-mobile div#favoritesTab {
+	padding-left: 12px;
+}
