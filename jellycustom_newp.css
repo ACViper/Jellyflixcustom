@@ -18,8 +18,7 @@
 .button-link {color: var(--accent);}
 .emby-checkbox:checked + span + .checkboxOutline {
 background-color: var(--accent2);
-border-color: var(--accent);
-}
+border-color: var(--accent);}
 
 .paper-icon-button-light:hover:not(:disabled) {
     color: var(--accent);
@@ -29,15 +28,12 @@ border-color: var(--accent);
 .button-submit {background: var(--accent);}
 .button-submit:focus {background: var(--accent2);}
 .emby-tab-button:hover {color: var(--accent);}
-
+.emby-input:focus, .emby-textarea:focus {border-color: var(--accent2);}
+.inputLabelFocused, .selectLabelFocused, .textareaLabelFocused {color: var(--accent);}
 .listItemIcon:not(.listItemIcon-transparent) {background-color: var(--accent);}
-
 .mdl-spinner__layer-1 {border-color: var(--accent2);}
-
-
-.emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
-    background-color: var(--accent);
-}
+.emby-checkbox:focus:not(:checked) + span + .checkboxOutline {border-color: var(--accent);}
+.emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {background-color: var(--accent);}
 
 /* Simple with Logo fix */
 .layout-desktop .detailRibbon {background: transparent !important;}
