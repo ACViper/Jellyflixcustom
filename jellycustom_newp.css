@@ -27,6 +27,7 @@ border-color: var(--accent);
 }
 
 .button-submit {background: var(--accent);}
+.button-submit:focus {background: var(--accent2);}
 .emby-tab-button:hover {color: var(--accent);}
 
 .listItemIcon:not(.listItemIcon-transparent) {background-color: var(--accent);}
@@ -36,4 +37,34 @@ border-color: var(--accent);
 
 .emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
     background-color: var(--accent);
+}
+
+/* Simple with Logo fix */
+.layout-desktop .detailRibbon {background: transparent !important;}
+.layout-desktop .nameContainer {padding-bottom: 70px !important;}
+.layout-desktop #itemDetailPage .detailLogo {margin-bottom: -45vh !important; margin-left: 4% !important;}
+
+/* Mobile */
+.layout-mobile .itemBackdrop {
+	margin-top: 0rem;
+}
+
+.layout-mobile .sections.homeSectionsContainer {
+    padding-left: 12px;
+	padding-right: 12px;
+}
+
+.layout-mobile #itemDetailPage .detailVerticalSection {
+	padding-left: 12px;
+    padding-right: 12px;
+	width: auto;
+}
+
+.layout-mobile div#favoritesTab {
+	padding-left: 12px;
+}
+
+.layout-mobile #itemDetailPage .sectionTabs {
+    margin-left: 0em !important;
+    margin-right: 0em !important;
 }
