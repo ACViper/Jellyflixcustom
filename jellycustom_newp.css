@@ -19,6 +19,7 @@
 .emby-checkbox:checked + span + .checkboxOutline {
 background-color: var(--accent2);
 border-color: var(--accent);}
+.emby-select-withcolor:focus {border-color: var(--accent)!important;}
 
 .paper-icon-button-light:hover:not(:disabled) {
     color: var(--accent);
