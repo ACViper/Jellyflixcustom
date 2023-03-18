@@ -41,6 +41,10 @@ border-color: var(--accent);}
 .nameContainer .parentName.focuscontainer-x {margin: -2em 0 0 0;}
 .layout-desktop #itemDetailPage .detailLogo {margin-bottom: -45vh !important; margin-left: 4% !important;}
 
+/* Metadata Admin fix */
+.editPageSidebar {width: 22%!important;}
+.editPageSidebar {left: 250px!important;}
+
 /* Mobile */
 .layout-mobile .itemBackdrop {
 	margin-top: 0rem;
