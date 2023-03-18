@@ -1,11 +1,4 @@
-:root{
-	--accent: #796EC9;
-	--accent1: #151230cc;
-	--accent2: #796ec999;
-	--accent3: #796ec933;
-	--accent4: #0d0b1ecc;
-	--deftraback: var(--accent) !important;
-}
+:root{--accent: #796EC9; --accent1: #151230cc; --accent2: #796ec999; --accent3: #796ec933; --accent4: #0d0b1ecc; --deftraback: var(--accent) !important;}
 .backdropImage {filter: blur(12px) saturate(20%) contrast(70%) brightness(80%);}
 .backgroundContainer.withBackdrop {background-color: var(--accent4);}
 
@@ -21,11 +14,7 @@ background-color: var(--accent2);
 border-color: var(--accent);}
 .emby-select-withcolor:focus {border-color: var(--accent)!important;}
 
-.paper-icon-button-light:hover:not(:disabled) {
-    color: var(--accent);
-    background-color: var(--accent3);
-}
-
+.paper-icon-button-light:hover:not(:disabled) {color: var(--accent); background-color: var(--accent3);}
 .button-submit {background: var(--accent);}
 .button-submit:focus {background: var(--accent2);}
 .emby-tab-button:hover {color: var(--accent);}
@@ -41,32 +30,17 @@ border-color: var(--accent);}
 .nameContainer .parentName.focuscontainer-x {margin: -2em 0 0 0;}
 .layout-desktop .nameContainer {padding-left: 20px;}
 .layout-desktop #itemDetailPage .detailLogo {margin-bottom: -45vh !important; margin-left: 4% !important;}
+.listItemImage-large {height: 10vw; border-radius: 10px;}
+.listItem:hover {background-color: #23232380;}
+.layout-desktop .listItem {padding: 7px 0px 7px 7px !important}
 
 /* Metadata Admin fix */
 .editPageSidebar {width: 22%!important;}
 .editPageSidebar {left: 250px!important;}
 
 /* Mobile */
-.layout-mobile .itemBackdrop {
-	margin-top: 0rem;
-}
-
-.layout-mobile .sections.homeSectionsContainer {
-    padding-left: 12px;
-	padding-right: 12px;
-}
-
-.layout-mobile #itemDetailPage .detailVerticalSection {
-	padding-left: 12px;
-    padding-right: 12px;
-	width: auto;
-}
-
-.layout-mobile div#favoritesTab {
-	padding-left: 12px;
-}
-
-.layout-mobile #itemDetailPage .sectionTabs {
-    margin-left: 0em !important;
-    margin-right: 0em !important;
-}
+.layout-mobile .itemBackdrop {margin-top: 0rem;}
+.layout-mobile .sections.homeSectionsContainer {padding-left: 12px; padding-right: 12px;}
+.layout-mobile #itemDetailPage .detailVerticalSection {padding-left: 12px; padding-right: 12px; width: auto;}
+.layout-mobile div#favoritesTab {padding-left: 12px;}
+.layout-mobile #itemDetailPage .sectionTabs {margin-left: 0em !important; margin-right: 0em !important;}
