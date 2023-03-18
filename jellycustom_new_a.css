@@ -30,7 +30,7 @@ border-color: var(--accent);}
 .nameContainer .parentName.focuscontainer-x {margin: -2em 0 0 0;}
 .layout-desktop .nameContainer {padding-left: 20px;}
 .layout-desktop #itemDetailPage .detailLogo {margin-bottom: -45vh !important; margin-left: 4% !important;}
-.listItemImage-large {height: 13vw;}
+.listItemImage-large {height: 13vw; border-radius: 10px;}
 .listItem:hover {background-color: #23232380;}
 
 
