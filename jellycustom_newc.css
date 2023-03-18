@@ -38,7 +38,6 @@ border-color: var(--accent);}
 
 /* Simple with Logo fix */
 .layout-desktop .detailRibbon {background: transparent !important;}
-.layout-desktop .nameContainer {padding-bottom: 70px !important;}
 .layout-desktop #itemDetailPage .detailLogo {margin-bottom: -45vh !important; margin-left: 4% !important;}
 
 /* Mobile */
