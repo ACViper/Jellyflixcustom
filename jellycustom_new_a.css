@@ -32,7 +32,7 @@ border-color: var(--accent);}
 .layout-desktop #itemDetailPage .detailLogo {margin-bottom: -45vh !important; margin-left: 4% !important;}
 .listItemImage-large {height: 13vw; border-radius: 10px;}
 .listItem:hover {background-color: #23232380;}
-
+.layout-desktop .listItem {padding: 10px !important;}
 
 /* Metadata Admin fix */
 .editPageSidebar {width: 22%!important;}
