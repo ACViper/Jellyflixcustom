@@ -86,6 +86,16 @@
     position: relative !important;
     top: -17px !important;
 }
+/* Fix for video player and login page */
+.layout-desktop .hide-scroll .mainDrawer,
+.layout-desktop .hideMainDrawer .mainDrawer {
+    left: -320px !important;
+}
+/* Fix for scroll menus on home page */
+.emby-scroller {
+    margin-right: -2% !important;
+}
+
 /* Mobile fixes */
 .layout-mobile .headroom--unpinned {
     transform: translateY(-50%);
