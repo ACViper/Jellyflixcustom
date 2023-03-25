@@ -29,8 +29,8 @@
 	bottom: 225px;
 }
 .card:hover {
-  transform: scale(1.03) !important;
-  box-shadow: 0 3px 0px 0px var(--accent2);
+  transform: scale(1.01) !important;
+  box-shadow: 0px 5px 0px 0px var(--accent2);
 }
 .cardIndicators {
     right: 5px;
