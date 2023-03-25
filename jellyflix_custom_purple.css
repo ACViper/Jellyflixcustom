@@ -12,6 +12,3 @@
 .itemSelectionPanel {
     border: 2px solid var(--accent);
 }
-.card:hover {
-  box-shadow: 0 3px 0px 0px var(--accent2)
-}
