@@ -96,8 +96,9 @@
     margin-right: -2% !important;
 }
 
+/* Fix for series/movies list placement */
 .itemsContainer.padded-left.padded-right.padded-right-withalphapicker.vertical-wrap {
-    width: 84vw !important;
+    width: 79vw !important;
 }
 
 /* Mobile fixes */
