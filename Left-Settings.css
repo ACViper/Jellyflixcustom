@@ -101,6 +101,11 @@
     width: 79vw !important;
 }
 
+/* Fix for overlay buttons */
+.card.portraitCard.card-hoverable.card-withuserdata .cardBox.cardBox-bottompadded .cardScalable .cardOverlayContainer.itemAction .cardOverlayButton-br.flex {
+    bottom: 196px;
+}
+
 /* Mobile fixes */
 .layout-mobile .headroom--unpinned {
     transform: translateY(-50%);
