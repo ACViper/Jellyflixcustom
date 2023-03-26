@@ -77,6 +77,10 @@
     height: 45px !important;
     font-size: 1em;
 }
+.emby-tab-button::after {
+    bottom: 0.65em;
+}
+
 /* Lower header and add padding to right buttons */
 .layout-desktop .headerRight {
     padding: 0px 5px !important;
