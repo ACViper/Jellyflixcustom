@@ -1549,3 +1549,10 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 .card.overflowSquareCard.card-hoverable.card-withuserdata {
     width: 10.65vw;
 }
+
+/*Default Accent Colors*/
+:root {
+    --accent: 120, 150, 190;
+    --accent2: rgb(120 150 190 / 60%);
+    --accent_border: rgb(120 150 190 / 30%);
+}
