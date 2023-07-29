@@ -1,0 +1,5 @@
+:root {
+    --accent: 120, 150, 190;
+    --accent2: rgb(120 150 190 / 60%);
+    --accent_border: rgb(120 150 190 / 30%);
+}
